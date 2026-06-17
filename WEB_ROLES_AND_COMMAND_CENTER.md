@@ -1,6 +1,5 @@
 # Distrac Web Dashboard — Roles, Features & Command Center Guide
 
-**For leadership and product decisions (especially Command Center UI).**
 
 This document describes **only the office web application** — what exists today, what each role can see, what they must approve or reject, what happens automatically, and what alerts appear. It is written so you can decide **what the CEO should see on the map** without reading technical documentation.
 
