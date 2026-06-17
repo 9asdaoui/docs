@@ -411,37 +411,7 @@ When scoping Command Center UI, ask: *“Is this KPI global, regional, or depot-
 
 ---
 
-## 9. Command Center UI — decision checklist for the CEO
-
-Use this when discussing what you want on screen:
-
-### A. On the default HUD (no entity selected)
-
-- [ ] Which **KPIs** must be visible at login? (sales, mission %, debt total, order count…)  
-- [ ] Which **alerts** must never be hidden? (exceptions, full depots, unassigned orders…)  
-- [ ] Should alerts be **clickable shortcuts** only, or also show preview detail inline?  
-- [ ] Do we need **role-specific HUDs** (CEO vs depot manager see different widgets)?  
-
-### B. On the map
-
-- [ ] Which **layers** default ON? (all vs depots-only vs missions-only)  
-- [ ] Do we need **colour rules**? (e.g. red depot pin = over capacity)  
-- [ ] Should **live trucks** be more prominent than static depot pins?  
-
-### C. On entity click (e.g. depot)
-
-- [ ] Is the **profile header** (name, address, image) the right first impression?  
-- [ ] Are the **four tabs** (Stock, Livreurs, Missions, Vendor Loads) the right split?  
-- [ ] Should **approve actions** live on the map panel or only on full pages?  
-
-### D. Approvals
-
-- [ ] Should the HUD show **one combined inbox** or **separate counts** (exceptions vs proposals vs missions)?  
-- [ ] Who should get **email/SMS** later when counts > 0? (not built yet — product decision)  
-
----
-
-## 10. Quick reference — “Who approves what?”
+## 9. Quick reference — “Who approves what?”
 
 | Item | Primary approver | Where on web |
 |------|------------------|--------------|
@@ -454,19 +424,4 @@ Use this when discussing what you want on screen:
 | Replenishment auto-approve | **System** (if toggles ON) | Settings / depot flag |
 | Mission auto-build | **System** (at dispatch time) | Settings → dispatch time |
 
----
 
-## 11. What is NOT on the web yet (expectations)
-
-- Prevendeurs, vendors, and livreurs **do not** use this dashboard for daily work (mobile app).  
-- **No push notifications** on web for new exceptions (must open Exceptions or HUD).  
-- **Proposal “reject”** in inbox is dismiss-only on screen — not a formal backend rejection workflow.  
-- Some inventory menu items are **open to all logged-in users** (no strict permission gate yet) — may change.  
-
----
-
-## Related document
-
-For mobile + full company overview (all channels): see [ROLES_AND_CAPABILITIES.md](./ROLES_AND_CAPABILITIES.md).
-
-*Last updated: June 2026 — reflects current web app and Command Center as implemented.*
