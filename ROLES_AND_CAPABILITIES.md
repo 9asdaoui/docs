@@ -2,8 +2,6 @@
 
 **A plain-language guide to user roles and what the platform can do today.**
 
-*Audience: leadership and non-technical stakeholders.*
-
 ---
 
 ## What is Distrac?
